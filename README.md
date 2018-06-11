@@ -7,11 +7,12 @@
 
 ## Dedication
 
-> Failure should be our teacher, not our undertaker. Failure is delay, not
-> defeat. It is a temporary detour, not a dead end. Failure is something we can
-> avoid only by saying nothing, doing nothing, and being nothing.
+> The ego is only an illusion, but a very influential one. Letting the
+> ego-illusion become your identity can prevent you from knowing your true self.
+> Ego, the false idea of believing that you are what you have or what you do, is
+> a backwards way of assessing and living life.
 >
-> Denis Waitley
+> Wayne Dyer
 
 
 ## Synopsis
@@ -21,7 +22,7 @@ doesn't afraid of anything. But working with HKD isn't everything it's cracked
 up to be -- it makes deriving instances hard, requires janky type families, and
 in general doesn't fill you with any sense of joy.
 
-[hkd]:
+[hkd]: http://reasonablypolymorphic.com/blog/higher-kinded-data/
 
 Enter `same-same`: a compiler plugin that provides proofs of `a ~ Identity a`
 and makes working with HKD a little less shit. Armed with this proof, we're able
