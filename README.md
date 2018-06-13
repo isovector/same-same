@@ -17,8 +17,8 @@
 
 ## Synopsis
 
-I think [higher-kinded data][hkd] is a pretty cool guy. eh reuses datatypes and
-doesn't afraid of anything. But working with HKD isn't everything it's cracked
+I think [higher-kinded data][hkd] is a pretty cool guy. He reuses datatypes and
+he isn't afraid of anything. But working with HKD isn't everything it's cracked
 up to be -- it makes deriving instances hard, requires janky type families, and
 in general doesn't fill you with any sense of joy.
 
