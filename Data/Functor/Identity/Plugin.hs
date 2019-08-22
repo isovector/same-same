@@ -91,11 +91,9 @@ buildPluginResults idTyCon ct = do
 lowerIdTower :: TyCon -> Type -> Type
 lowerIdTower idTyCon t =
   case tcSplitTyConApp_maybe t of
-    Just (tyCon, apps) ->
-      if idTyCon == tyCon
-         then lowerIdTower idTyCon $ head apps
-         else t
-    Nothing -> t
+    Just (tyCon, [v]) | idTyCon == tyCon
+      -> lowerIdTower idTyCon v
+    _ -> t
 
 
 ------------------------------------------------------------------------------
